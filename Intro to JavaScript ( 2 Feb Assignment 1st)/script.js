@@ -23,8 +23,7 @@ function checkPalindrome() {
 
 
     var newStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-
-
+    
     var revStr = newStr.split("").reverse().join("");
 
     if (newStr === revStr) {
